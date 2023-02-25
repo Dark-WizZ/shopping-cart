@@ -1,11 +1,10 @@
-.html, .body{
+html, body, #root, .App{
   height: 100%;
   width: 100%;
   margin:0;
   padding:0;
 }
 .navbar{
-  background-color: blue;
-  height: 20%;
-  width: 100%;
+  background-color: grey;
+  height:60px;
 }
