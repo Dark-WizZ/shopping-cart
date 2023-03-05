@@ -10,8 +10,9 @@ export default function Navbar(props){
       <Link to='shop'>SHOP</Link>
     </div>
     <div className="cart-icon">
-      <img src={ShopCartIcon}></img>
-      <div className="cart-count">0</div>
+      <Link to='cart'>
+      <img src={ShopCartIcon}></img></Link>
+      <div className="cart-count">{props.cartQty}</div>
     </div>
   </div>
 }

@@ -1,25 +1,18 @@
-import phone from '../pics/phone.png'
-
-export default function Card(){
-  return <div className="card">
+export default function Card(props){
+  return <div className={"card"} data-id={props.id}>
     <div className='product-image'>
-      <img src={phone} height="300" width="300" ></img>
-      <div className='price'>$399</div>
+      <img src={props.image} height="300" width="300" ></img>
+      <div className='price'>${props.price}</div>
     </div>
-    <div className='title'>SAMSUNG G15</div>
-    <div className='about'>
-      <ul>
-        <li>4GB Ram</li>
-        <li>64GB Internal storage</li>
-        <li>Snapdragon 440</li>
-      </ul>
-    </div>
+    <div className='title'>{props.title}</div>
+    <div className='about'>{props.desc}</div>
     <div className='bottom-sec'>
       <div className='qty-sec'>
-        <label for='qty'>Quantity: </label>
+        <label htmlFor='qty'>Quantity: </label>
         <input id='qty' type='number' defaultValue='1' min='1'></input>
       </div>
-      <button className='add-to-cart'>Add to Cart</button>
+      <div className="rate">Rate: {props.rate}/5.0</div>
+      <button className='add-to-cart' data-id={props.id} onClick={props.addToCartClk}>Add to Cart</button>
     </div>
   </div>
 }
