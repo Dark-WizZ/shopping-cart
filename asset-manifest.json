@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.6d4605c4.css",
-    "main.js": "/shopping-cart/static/js/main.f605be0a.js",
+    "main.js": "/shopping-cart/static/js/main.fdc942ea.js",
     "static/media/bg.jpg": "/shopping-cart/static/media/bg.109a330f2dbb0cecb487.jpg",
     "static/media/Roboto-Regular.ttf": "/shopping-cart/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/shopping-cart/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/shopping-cart-yellow.png": "/shopping-cart/static/media/shopping-cart-yellow.c2983f66af998d07c68c.png",
     "index.html": "/shopping-cart/index.html",
     "main.6d4605c4.css.map": "/shopping-cart/static/css/main.6d4605c4.css.map",
-    "main.f605be0a.js.map": "/shopping-cart/static/js/main.f605be0a.js.map"
+    "main.fdc942ea.js.map": "/shopping-cart/static/js/main.fdc942ea.js.map"
   },
   "entrypoints": [
     "static/css/main.6d4605c4.css",
-    "static/js/main.f605be0a.js"
+    "static/js/main.fdc942ea.js"
   ]
 }
